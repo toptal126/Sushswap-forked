@@ -2821,6 +2821,22 @@
   resolved "https://registry.yarnpkg.com/@sushiswap/chainlink-whitelist/-/chainlink-whitelist-0.2.8.tgz#832dc80963b890a2eb02aaaf11ea8b57b2b7dde0"
   integrity sha512-YhhGfF/smND4jUdVWuTr3e9Np08zLyxrOfbQ6GkAhmrld4lWBs2sk4TV6oWSBWPbuUb3A2mw203uCnbMHpSoXw==
 
+"@sushiswap/core-sdk@1.0.0-canary.16":
+  version "1.0.0-canary.16"
+  resolved "https://registry.yarnpkg.com/@sushiswap/core-sdk/-/core-sdk-1.0.0-canary.16.tgz#e3b42a442233c1fe2d058a0f8564a66667317bd5"
+  integrity sha512-eLcpnUcZDK8gM0JzASsa3AkeESvnYzpsMV1cJ0j8AT8T915tLh96LigvfnJb2DZG3EbDcbl23be/rxlcHIx3QQ==
+  dependencies:
+    "@ethersproject/address" "^5.4.0"
+    "@ethersproject/bignumber" "^5.4.0"
+    "@ethersproject/providers" "^5.4.0"
+    "@ethersproject/solidity" "^5.4.0"
+    big.js "^6.1.1"
+    decimal.js-light "^2.5.0"
+    jsbi "^4.1.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.0"
+    toformat "^2.0.0"
+
 "@sushiswap/core-sdk@1.0.0-canary.75":
   version "1.0.0-canary.75"
   resolved "https://registry.yarnpkg.com/@sushiswap/core-sdk/-/core-sdk-1.0.0-canary.75.tgz#75d852504ddee2499035a71f27931c7a9896ced0"
@@ -2863,10 +2879,10 @@
   resolved "https://registry.yarnpkg.com/@sushiswap/limit-order-pair-list/-/limit-order-pair-list-0.2.15.tgz#43601d45205664c4e24229f56815bc71550c8824"
   integrity sha512-G9w7oHw507tIVZzvewvcT5+RQcYOYA9YDc45dIhw8S3T4MrFDFhgbK4u00lNt8qI8+tu1nsoH7GWamA8xCk86Q==
 
-"@sushiswap/limit-order-sdk@1.0.0-canary.61":
-  version "1.0.0-canary.61"
-  resolved "https://registry.yarnpkg.com/@sushiswap/limit-order-sdk/-/limit-order-sdk-1.0.0-canary.61.tgz#b1f71a61e8a27ee4172ef963cec8b22d6f166d06"
-  integrity sha512-Hlt2oVTw03sIF+dGMJS4XnYoYddJCKAghulhE8QKUbA0uXAtM9L7+z4eJkOfY6ENDt7CCdEhI2qAqdBWQ8Pzmw==
+"@sushiswap/limit-order-sdk@1.0.0-canary.175":
+  version "1.0.0-canary.175"
+  resolved "https://registry.yarnpkg.com/@sushiswap/limit-order-sdk/-/limit-order-sdk-1.0.0-canary.175.tgz#31957918a7ebbcb261dd2bb493d3cb369a0bd714"
+  integrity sha512-tA4rgwc+4aonVN8/dDRMKY3QuxbJBft8ekJL28j0iu7E101a5eaiHZN5L4GcTjFdu4vhAAo1w3vgLzj4uJL5yQ==
   dependencies:
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.0"
@@ -2875,7 +2891,7 @@
     "@ethersproject/experimental" "^5.4.0"
     "@ethersproject/signing-key" "^5.4.0"
     "@ethersproject/transactions" "^5.4.0"
-    "@sushiswap/core-sdk" "1.0.0-canary.75"
+    "@sushiswap/core-sdk" "1.0.0-canary.16"
     eip-712 "^0.4.0"
     isomorphic-unfetch "^3.0.0"
 
