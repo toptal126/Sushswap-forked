@@ -2821,6 +2821,22 @@
   resolved "https://registry.yarnpkg.com/@sushiswap/chainlink-whitelist/-/chainlink-whitelist-0.2.8.tgz#832dc80963b890a2eb02aaaf11ea8b57b2b7dde0"
   integrity sha512-YhhGfF/smND4jUdVWuTr3e9Np08zLyxrOfbQ6GkAhmrld4lWBs2sk4TV6oWSBWPbuUb3A2mw203uCnbMHpSoXw==
 
+"@sushiswap/core-sdk@1.0.0-canary.111":
+  version "1.0.0-canary.111"
+  resolved "https://registry.yarnpkg.com/@sushiswap/core-sdk/-/core-sdk-1.0.0-canary.111.tgz#9a44a3582f07c9b47827ffd34cc607146cc22c89"
+  integrity sha512-My9DxiY4FlRAUWlQnFH2wXUK/7QXxhDzg9X6xctd6tX0jXT9ODytUsSpbWhxRwJVVLkBJQ02EgT3HQPEfmn3KQ==
+  dependencies:
+    "@ethersproject/address" "^5.4.0"
+    "@ethersproject/bignumber" "^5.4.0"
+    "@ethersproject/providers" "^5.4.0"
+    "@ethersproject/solidity" "^5.4.0"
+    big.js "^6.1.1"
+    decimal.js-light "^2.5.0"
+    jsbi "^4.1.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.0"
+    toformat "^2.0.0"
+
 "@sushiswap/core-sdk@1.0.0-canary.75":
   version "1.0.0-canary.75"
   resolved "https://registry.yarnpkg.com/@sushiswap/core-sdk/-/core-sdk-1.0.0-canary.75.tgz#75d852504ddee2499035a71f27931c7a9896ced0"
@@ -2923,6 +2939,14 @@
   dependencies:
     "@ethersproject/bignumber" "^5.4.0"
     "@sushiswap/core-sdk" "1.0.0-canary.75"
+
+"@sushiswap/tines@1.0.0-canary.91":
+  version "1.0.0-canary.91"
+  resolved "https://registry.yarnpkg.com/@sushiswap/tines/-/tines-1.0.0-canary.91.tgz#b126df1d190025f2570fbb269c846a5646b5e186"
+  integrity sha512-8ssID9yFpwepb7xf2e/OD/hjVeXfTguyATNQisUS0E2n5/oJyl73a0Wtway7NTEopUNut0MIF4Hr75YG1ipQNQ==
+  dependencies:
+    "@ethersproject/bignumber" "^5.4.0"
+    "@sushiswap/core-sdk" "1.0.0-canary.111"
 
 "@sushiswap/trident-sdk@1.0.0-canary.85":
   version "1.0.0-canary.85"
